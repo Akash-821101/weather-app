@@ -1,0 +1,124 @@
+.app {
+  color: black;
+  
+}
+
+.header {
+  background-color: rgb(135, 202, 222);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+
+.container {
+  margin: auto;
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 5px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  position: relative;
+  height: 42px;
+  padding: 10px;
+}
+.search-box button {
+ height: 20px;
+ width: 20px;
+ color: black;
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
+ border-radius: 2px;
+ 
+}
+
+.search-box span {
+  position: absolute;
+  font-size: 10px;
+  top: -8px;
+  left: 8px;
+  background-color: white;
+  margin: 1px;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline-color: none;
+  outline: none;
+}
+
+
+
+
+.text {
+  font-size: 1rem;
+  color: blue;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  gap: 2px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem;
+  border: 1px solid snow;
+  border-radius: 4px;
+}
+
+.recent-box p {
+  width: 100%;
+  cursor: pointer;
+}
+
+.recent-box p:nth-child(even) {
+  background-color: aliceblue;
+}
+
+
+
